@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript"> 
+
+        /*for (var i=1 ; i<10 ; i++)
+            console.log(i)*/
+
+        /*var daysOfTheWeek = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
+
+        for (var i = 0; i < daysOfTheWeek.length; i++) {
+        var day = daysOfTheWeek[i]
+        console.log(day)
+        }*/
+
+        /*var i = 1
+
+        while(i < 10){
+        console.log(i)
+
+        i++
+        }*/
+
+        /*var value
+
+        do{
+        value = prompt('Ingrese un valor mayor a 5')
+
+        }while(value <= 5)
+
+        console.log(value)*/
+
+        /*for(var i = 1 ; i < 10 ; i++){
+        console.log(i)
+
+        if(i === 5){
+            break
+        }
+        }
+
+        for(var i = 1 ; i < 15 ; i++){
+        if(i === 3){
+            continue
+        }
+        console.log(i)*/
+
+        var daysOfTheWeek = [
+        'Lunes',
+        'Martes',
+        'Miércoles',
+        'Miercoles',
+        'Jueves',
+        'Viernes',
+        'Sábado',
+        'Sabado',
+        'Domingo',
+        'Pato'
+        ];
+
+        const diaSemana = ' es dia de semana';
+        const diaFinSemana = ' es fin de semana';
+
+        for (var i = 0; i < 6; i++) {
+            console.log (daysOfTheWeek[i] + diaSemana);
+        }
+
+        for (var i = 0; 9 > i > 6; i++) {
+            console.log (daysOfTheWeek[i] + diaFinSemana);
+        }
+
+        var operacion = prompt("Ingrese la operacion a realizar")
+        var primerNumero= prompt("Ingrese primer numero")
+        var segundoNumero= prompt("Ingrese segundo numero")
+
+        var primerNumeroParseado= parseInt(primerNumero)
+        var segundoNumeroParseado= parseInt(segundoNumero)
+
+
+        const resultado = "El resultado es "
+
+        if (operacion == "sum") {
+            console.log (resultado + (primerNumeroParseado + segundoNumeroParseado));
+        }
+
+        else if (operacion == "sust") {
+            console.log (resultado + (primerNumeroParseado - segundoNumeroParseado));
+        }
+
+        else if (operacion == "mult") {
+            console.log (resultado + (primerNumeroParseado * segundoNumeroParseado));
+        }
+
+        else if (operacion == "div"){
+        while (segundoNumeroParseado == 0){ segundoNumero= prompt("Ingrese segundo numero")}
+            console.log (resultado + (primerNumeroParseado / segundoNumeroParseado));
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
